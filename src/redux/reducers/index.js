@@ -1,14 +1,10 @@
 import { combineReducers } from "redux"
 import { auth } from "./auth"
-import { catagory } from "./catagory";
-import { cart } from "./cart";
-import { clicks } from "./clicks";
+import {user } from './user';
 
 const rootReducer = combineReducers({
     auth,
-    catagory,
-    cart,
-    clicks
+    user
 })
 
 export default rootReducer;

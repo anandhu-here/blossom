@@ -16,6 +16,8 @@ target 'blossom' do
 
   pod 'react-native-location', :path => '../node_modules/react-native-location'
 
+  pod 'RNCCheckbox', :path => '../node_modules/@react-native-community/checkbox'
+
   target 'blossomTests' do
     inherit! :complete
     # Pods for testing

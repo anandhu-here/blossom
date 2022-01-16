@@ -2,8 +2,9 @@ const user = {
     name:'Anandhu Satheesh',
     
 }
+export const jobs = ['Health Care Assistant', 'Senior Care Assistant', 'Nurse'];
 
-export const base_color = '#f2f2f2'
+export const base_color = '#66c2ff'
 export const home_buttons = "#009999"
 export const home_but_color = 'lightblue'
 
